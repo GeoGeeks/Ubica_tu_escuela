@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="arcgis.esri.com.ubicatuescuela.Mapa"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner_escuela"
+        android:background="@color/color_fondo"
+        android:id="@+id/imageView5" />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="402dp"
+        android:id="@+id/webView"
+        android:layout_weight="1.58"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView5" />
+
+</RelativeLayout>
